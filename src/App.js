@@ -2,52 +2,75 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [Todolist, setTodolist] = useState([]);
+  const [todolist, setTodolist] = useState([]);
   const [newTask, setNewTask] = useState('');
-  
+
   const handleNewChange = (event) => {
     setNewTask(event.target.value);
   };
-  
-  const addTasks = () => {
+
+  const addTask = () => {
     const task = {
-      id: Todolist.length === 0 ? 1 : Todolist[Todolist.length -1].id +1,
-      task: newTask,
+      id: todolist.length === 0 ? 1 : todolist[todolist.length - 1].id + 1,
+      name: newTask,
+      completed: false,
     };
-  
-    setTodolist([...Todolist, task]);
+
+    setTodolist([...todolist, task]);
     setNewTask('');
   };
-  
+
   const deleteTask = (id) => {
-    setTodolist(Todolist.filter((task) => task.id !== id));
+    setTodolist(todolist.filter((task) => task.id !== id));
   };
-  
+
+  const completeTask = (id) => {
+    setTodolist(
+      todolist.map((task) => {
+        if (task.id === id) {
+          return { ...task, completed: true };
+        } else {
+          return task;
+        }
+      })
+    );
+  };
+
   return (
-    <div className='App'>
+    <div className="App">
       <nav>
-        <div className='nav-wrapper'>
-          <a href='/' className='brand-logo'>
+        <div className="nav-wrapper">
+          <a href="/" className="brand-logo">
             TodoList project
           </a>
         </div>
       </nav>
-      <div className='container'>
-        <div className='addTask'>
+      <div className="container">
+        <div className="addTask">
           <input
             onChange={handleNewChange}
             onFocus={() => setNewTask('')}
             value={newTask}
-            placeholder='Add task...'
+            placeholder="Add task..."
           />
-          <button onClick={addTasks}>Add task</button>
+          <button onClick={addTask}>Add task</button>
         </div>
-        <div className='list'>
-          {Todolist.map((task) => {
+        <div className="list">
+          {todolist.map((task) => {
             return (
-              <div className='DeleteTask' key={task.id}>
-                <h1>{task.task}</h1>
-                <button onClick={() => deleteTask(task.id)}>X</button>
+              <div className="task" key={task.id}>
+                <div
+                  className={`taskName ${task.completed ? 'completed' : ''}`}
+                  onClick={() => completeTask(task.id)}
+                >
+                  {task.name}
+                </div>
+                <div className="actions">
+                  <button onClick={() => deleteTask(task.id)}>X</button>
+                  {!task.completed && (
+                    <button onClick={() => completeTask(task.id)}>✓</button>
+                  )}
+                </div>
               </div>
             );
           })}
@@ -56,4 +79,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

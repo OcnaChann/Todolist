@@ -76,6 +76,9 @@ function App() {
           })}
         </div>
       </div>
+      <footer className="footer">
+    <p>&copy; {new Date().getFullYear()}- small project made by Sabina</p>
+  </footer>
     </div>
   );
 }

@@ -1,0 +1,63 @@
+************************************* Invoked: Sat May 13 06:32:50 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c++98, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[8] Language: en-US
+[8] Script file does not exist.
+[9] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 06:32:50 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c++98, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[7] Language: en-US
+[7] Script file does not exist.
+[8] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 06:32:51 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c++98, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[21] Language: en-US
+[21] Script file does not exist.
+[23] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 06:33:54 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[7] Operations sanity check succeeded.
+[9] Language: en-US
+[10] Script file does not exist.
+[11] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 06:33:55 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[21] Language: en-US
+[21] Script file does not exist.
+[22] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 06:33:55 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[11] Language: en-US
+[11] Script file does not exist.
+[12] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 07:39:42 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c++98, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[8] Operations sanity check succeeded.
+[11] Language: en-US
+[11] Script file does not exist.
+[13] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 07:39:43 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c++98, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[7] Language: en-US
+[7] Script file does not exist.
+[8] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
+************************************* Invoked: Sat May 13 07:39:43 2023
+[0] Arguments: c:\Users\lenovo\Downloads\msys2-x86_64-20220603.exe, -std=c++98, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[21] Language: en-US
+[21] Script file does not exist.
+[22] Warning: QMimeDatabase: Error loading internal MIME data
+An error has been encountered at line 1 of <internal MIME data>: Premature end of document.:
